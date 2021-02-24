@@ -106,7 +106,7 @@ if aligner == "mafft":
 		Seqs.append(record.seq)
 	AlignSeq1= Seqs[0].upper()
 	AlignSeq2= Seqs[1].upper()
-	os.remove(AlignedFile)
+# 	os.remove(AlignedFile)
 
 
 # =============================================================================
